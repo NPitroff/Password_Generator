@@ -43,6 +43,10 @@ function generatePassword(lower, upper, num, sym, length){
     for(i=0; i<length; i++){
       finalPassword += main[Math.floor(Math.random() * main.length)];
     }
+
+    document.querySelector("#password").value = finalPassword;
+  }else{
+    document.querySelector("#password").value = "Select from the password options and specify character length";
   }
 
 }

@@ -25,4 +25,4 @@
 -Includes: lowercase, uppercase, numbers, symbols
 
 3. Create a for loop to iterate the length of the password array
-
+-for loop created, and final password population created.
