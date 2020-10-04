@@ -7,8 +7,8 @@
 ////////JavaScript
 1.Declare variables to be used within the JS functions
 -Has <wrapper>?: Yes
--Has <copy> button?:No, must add
--Has <length> input?: No,must add
+-Has <copy> button?:No, must add /// Added functionality 
+-Has <length> input?: No,must add /// Added a label and input for password length 
 -Has <symbols> checkbox?: No, Must add
 -Has <Lowercase> checkbox?: No, Must add
 -Has <Uppercase> checkbox?: No, Must add
