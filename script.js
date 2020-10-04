@@ -16,11 +16,32 @@ const passKeys = {
 };
 
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+// function writePassword(lower, ) {
+//   var password = generatePassword();
+//   var passwordText = document.querySelector("#password");
 
-  passwordText.value = password;
+//   passwordText.value = password;
+
+// }
+
+function generatePassword(lower, upper, num, sym, length){
+  let main = "";
+  let finalPassword = "";
+
+  const passOptions = {
+    lowercase: lower,
+    uppercase: upper,
+    number: num,
+    symbol: sym
+  };
+
+  for(i=0; i<Object.keys(passOptions).length;i++){
+    main += (Object.value(passOptions)[i]) ? passKeys[Object.keys(passOptions)[i]] : "";
+  }
+
+  if(main != "" && length>0){
+    for(i=0;)
+  }
 
 }
 //Copy text function
