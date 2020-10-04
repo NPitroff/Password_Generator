@@ -8,6 +8,13 @@ var sym = document.querySelector('input[name="symbol"]');
 var generate = document.getElementById("generate");
 var copy = document.getElementById("copy");
 
+const passKeys = {
+  lowercase: 'abcdefghijklmnopqrstuvwxyz',
+  uppercase: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+  number: '0123456789',
+  symbol: " !#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
+};
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();

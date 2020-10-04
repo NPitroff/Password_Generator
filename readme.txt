@@ -12,10 +12,17 @@
 
 ////////JavaScript
 1.Declare variables to be used within the JS functions
-
+-Length of password
+-lowerCase
+-Uppercase
+-numbers
+-symbols
+-Generate the password
+-Copy Password to keyboard
 
 
 2.Create an array of password options
+-Includes: lowercase, uppercase, numbers, symbols
 
 3. Create a for loop to iterate the length of the password array
 
