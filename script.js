@@ -40,7 +40,9 @@ function generatePassword(lower, upper, num, sym, length){
   }
 
   if(main != "" && length>0){
-    for(i=0;)
+    for(i=0; i<length; i++){
+      finalPassword += main[Math.floor(Math.random() * main.length)];
+    }
   }
 
 }
