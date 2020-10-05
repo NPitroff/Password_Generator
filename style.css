@@ -14,13 +14,14 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-color:lightgreen;
 }
 
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  
 }
 
 header {
@@ -28,10 +29,11 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+  
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: powderblue;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
@@ -40,14 +42,20 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  text-align: center;
 }
 
 .card-header::after {
   content: " ";
   display: block;
   width: 100%;
-  background: #e7e9eb;
+  background: #c0c7cf;
   height: 2px;
+  
+}
+
+.check-card{
+  background-color: powderblue;
 }
 
 .card-body {
@@ -116,6 +124,10 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+textarea{
+background-color: #d6dbe0;
 }
 
 @media (max-width: 690px) {
